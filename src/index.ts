@@ -1,7 +1,13 @@
-type Foo = "BAR" | "BAZ" | "XYZZY"
+enum Foo {
+  BAR,
+  BAZ,
+  XYZZY
+}
 
-export default function heyFoo(hey: Foo) {
+function heyFoo(hey: Foo) {
   console.log(`Hey ${hey}`);
 }
 
-heyFoo("BAR");
+heyFoo(Foo.BAR);
+heyFoo(Foo.BAZ);
+heyFoo(Foo.XYZZY);

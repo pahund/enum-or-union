@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Hey ".concat("BAR"))})();
+(()=>{var Z;function n(Z){console.log("Hey ".concat(Z))}!function(Z){Z[Z.BAR=0]="BAR",Z[Z.BAZ=1]="BAZ",Z[Z.XYZZY=2]="XYZZY"}(Z||(Z={})),n(Z.BAR),n(Z.BAZ),n(Z.XYZZY)})();
