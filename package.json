@@ -1,0 +1,18 @@
+{
+  "name": "enum-or-union",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Hund <patrick.hund@adevinta.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
