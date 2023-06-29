@@ -1,7 +1,9 @@
-type Foo = "BAR" | "BAZ" | "XYZZY"
+type Foo = "BAR" | "BAZ" | "XYZZY";
 
-export default function heyFoo(hey: Foo) {
+function heyFoo(hey: Foo) {
   console.log(`Hey ${hey}`);
 }
 
 heyFoo("BAR");
+heyFoo("BAZ");
+heyFoo("XYZZY");

@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Hey ".concat("BAR"))})();
+(()=>{function o(o){console.log("Hey ".concat(o))}o("BAR"),o("BAZ"),o("XYZZY")})();
